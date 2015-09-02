@@ -1,13 +1,11 @@
-Tue Jul 28 15:20:17 CEST 2015 : Apache Derby Server di rete: 10.8.2.2 - (1181258) avviato e pronto ad accettare connessioni sulla porta 1527
+Wed Sep 02 14:13:25 CEST 2015 : Apache Derby Server di rete: 10.8.2.2 - (1181258) avviato e pronto ad accettare connessioni sulla porta 1527
 ----------------------------------------------------------------
-Tue Jul 28 15:20:17 CEST 2015:
-Avvio della versione di Derby The Apache Software Foundation - Apache Derby - 10.8.2.2 - (1181258): istanza a816c00e-014e-d4d2-1f84-ffffe56fcdea
-su directory database C:\Users\Mattia\Documents\GitHub\cinemangiare_db\cinemangiare_db  con caricatore classi sun.misc.Launcher$AppClassLoader@ba679e 
+Wed Sep 02 14:13:26 CEST 2015:
+Avvio della versione di Derby The Apache Software Foundation - Apache Derby - 10.8.2.2 - (1181258): istanza a816c00e-014f-8df9-d4f2-ffffe56fcdea
+su directory database C:\Users\Mattia\Documents\GitHub\cinemangiare_db\cinemangiare_db  con caricatore classi sun.misc.Launcher$AppClassLoader@709db0ad 
 
 java.vendor=Oracle Corporation
 java.runtime.version=1.7.0_21-b11
 user.dir=C:\Program Files\Java\jdk1.7.0_21\db
 derby.system.home=C:\Users\Mattia\Documents\GitHub\cinemangiare_db
 Programma di caricamento classe database avviato - derby.database.classpath=''
-----------------------------------------------------------------
-Tue Jul 28 17:49:48 CEST 2015: arresto in corso del motore di Derby
