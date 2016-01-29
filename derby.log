@@ -12,3 +12,5 @@ os.arch=amd64
 os.version=6.3
 derby.system.home=C:\Users\jack\Documents\GitHub\cinemangiare_db
 Programma di caricamento classe database avviato - derby.database.classpath=''
+----------------------------------------------------------------
+Fri Jan 29 11:53:19 CET 2016: arresto in corso del motore di Derby
