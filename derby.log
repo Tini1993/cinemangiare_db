@@ -1,8 +1,8 @@
-Thu Jan 28 20:10:29 CET 2016 : Apache Derby Server di rete: 10.8.3.2 - (1557835) avviato e pronto ad accettare connessioni sulla porta 1527
+Fri Jan 29 11:48:24 CET 2016 : Apache Derby Server di rete: 10.8.3.2 - (1557835) avviato e pronto ad accettare connessioni sulla porta 1527
 ----------------------------------------------------------------
-Thu Jan 28 20:10:29 CET 2016:
-Avvio della versione di Derby The Apache Software Foundation - Apache Derby - 10.8.3.2 - (1557835): istanza a816c00e-0152-89a4-c555-00003c6bf577
-su directory database C:\Users\jack\Documents\GitHub\cinemangiare_db\cinemangiare_db  con caricatore classi sun.misc.Launcher$AppClassLoader@79f1a8a 
+Fri Jan 29 11:48:24 CET 2016:
+Avvio della versione di Derby The Apache Software Foundation - Apache Derby - 10.8.3.2 - (1557835): istanza a816c00e-0152-8cff-7bae-00003c6bf577
+su directory database C:\Users\jack\Documents\GitHub\cinemangiare_db\cinemangiare_db  con caricatore classi sun.misc.Launcher$AppClassLoader@3415ddf5 
 
 java.vendor=Oracle Corporation
 java.runtime.version=1.7.0_79-b15
