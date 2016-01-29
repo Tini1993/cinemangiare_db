@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Fri Jan 29 11:47:01 CET 2016 : Apache Derby Server di rete: 10.8.2.2 - (1181258) avviato e pronto ad accettare connessioni sulla porta 1527
 Fri Jan 29 11:47:01 CET 2016 Thread[DRDAConnThread_3,5,main] Cleanup action starting
 java.sql.SQLException: Database 'web_project_database' non trovato.
@@ -54,6 +55,13 @@ Fri Jan 29 11:47:01 CET 2016 Thread[DRDAConnThread_3,5,main] (DATABASE = web_pro
 Fri Jan 29 11:47:01 CET 2016:
 Avvio della versione di Derby The Apache Software Foundation - Apache Derby - 10.8.2.2 - (1181258): istanza a816c00e-0152-8cfe-49df-00007e44b71d
 su directory database C:\Users\Mattia\Desktop\cinemangiare_db\cinemangiare_db\cinemangiare_db  con caricatore classi sun.misc.Launcher$AppClassLoader@ba679e 
+=======
+Fri Jan 29 11:48:24 CET 2016 : Apache Derby Server di rete: 10.8.3.2 - (1557835) avviato e pronto ad accettare connessioni sulla porta 1527
+----------------------------------------------------------------
+Fri Jan 29 11:48:24 CET 2016:
+Avvio della versione di Derby The Apache Software Foundation - Apache Derby - 10.8.3.2 - (1557835): istanza a816c00e-0152-8cff-7bae-00003c6bf577
+su directory database C:\Users\jack\Documents\GitHub\cinemangiare_db\cinemangiare_db  con caricatore classi sun.misc.Launcher$AppClassLoader@3415ddf5 
+>>>>>>> origin/master
 
 java.vendor=Oracle Corporation
 java.runtime.version=1.7.0_21-b11
@@ -61,8 +69,12 @@ user.dir=C:\Program Files\Java\jdk1.7.0_21\db
 derby.system.home=C:\Users\Mattia\Desktop\cinemangiare_db\cinemangiare_db
 Programma di caricamento classe database avviato - derby.database.classpath=''
 ----------------------------------------------------------------
+<<<<<<< HEAD
 Fri Jan 29 11:50:48 CET 2016: arresto in corso del motore di Derby
 ----------------------------------------------------------------
 Fri Jan 29 11:50:48 CET 2016:
 Arresto in corso dell'istanza a816c00e-0152-8cfe-49df-00007e44b71d nella directory del database C:\Users\Mattia\Desktop\cinemangiare_db\cinemangiare_db\cinemangiare_db con il caricatore di classi sun.misc.Launcher$AppClassLoader@ba679e
 ----------------------------------------------------------------
+=======
+Fri Jan 29 11:53:19 CET 2016: arresto in corso del motore di Derby
+>>>>>>> origin/master
