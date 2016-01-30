@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Fri Jan 29 17:19:38 CET 2016 : Apache Derby Server di rete: 10.8.2.2 - (1181258) avviato e pronto ad accettare connessioni sulla porta 1527
 ----------------------------------------------------------------
 Fri Jan 29 17:19:38 CET 2016:
@@ -66,3 +67,19 @@ Fri Jan 29 21:12:15 CET 2016: arresto in corso del motore di Derby
 Fri Jan 29 21:12:15 CET 2016:
 Arresto in corso dell'istanza a816c00e-0152-8e2e-c919-00007e44b71d nella directory del database C:\Users\Mattia\Desktop\cinemangiare_db\cinemangiare_db\cinemangiare_db con il caricatore di classi sun.misc.Launcher$AppClassLoader@ba679e
 ----------------------------------------------------------------
+=======
+Fri Jan 29 12:05:30 CET 2016 : Apache Derby Server di rete: 10.8.3.2 - (1557835) avviato e pronto ad accettare connessioni sulla porta 1527
+----------------------------------------------------------------
+Fri Jan 29 12:05:30 CET 2016:
+Avvio della versione di Derby The Apache Software Foundation - Apache Derby - 10.8.3.2 - (1557835): istanza a816c00e-0152-8d0f-24cd-00003c6bf577
+su directory database C:\Users\jack\Documents\GitHub\cinemangiare_db\cinemangiare_db  con caricatore classi sun.misc.Launcher$AppClassLoader@3415ddf5 
+
+java.vendor=Oracle Corporation
+java.runtime.version=1.7.0_79-b15
+user.dir=C:\Program Files\Java\jdk1.7.0_79\db
+os.name=Windows 8.1
+os.arch=amd64
+os.version=6.3
+derby.system.home=C:\Users\jack\Documents\GitHub\cinemangiare_db
+Programma di caricamento classe database avviato - derby.database.classpath=''
+>>>>>>> origin/master
