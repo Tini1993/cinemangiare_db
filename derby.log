@@ -1,28 +1,26 @@
-Wed Feb 10 16:06:13 CET 2016 : Server di rete Apache Derby: 10.11.1.2 - (1629631) avviato e pronto ad accettare connessioni sulla porta 1527
+Thu Feb 11 09:14:53 CET 2016 : Apache Derby Server di rete: 10.8.2.2 - (1181258) avviato e pronto ad accettare connessioni sulla porta 1527
 ----------------------------------------------------------------
-Wed Feb 10 16:06:13 CET 2016:
-Avvio della versione di Derby The Apache Software Foundation - Apache Derby - 10.11.1.2 - (1629631): istanza a816c00e-0152-cbb7-e871-ffff94413100
-sulla directory di database D:\Andrea\cinemangiare\cinemangiare_db\cinemangiare_db con caricatore classi sun.misc.Launcher$AppClassLoader@5e2de80c 
-Caricato da file:/C:/Program%20Files/Java/jdk1.8.0_66/db/lib/derby.jar
+Thu Feb 11 09:14:53 CET 2016:
+Avvio della versione di Derby The Apache Software Foundation - Apache Derby - 10.8.2.2 - (1181258): istanza a816c00e-0152-cf65-abe7-00007e44b71d
+su directory database C:\Users\Mattia\Desktop\cinemangiare_db\cinemangiare_db\cinemangiare_db  con caricatore classi sun.misc.Launcher$AppClassLoader@709db0ad 
+
 java.vendor=Oracle Corporation
-java.runtime.version=1.8.0_66-b17
-user.dir=C:\Program Files\Java\jdk1.8.0_66\db
-os.name=Windows 10
-os.arch=amd64
-os.version=10.0
-derby.system.home=D:\Andrea\cinemangiare\cinemangiare_db
+java.runtime.version=1.7.0_21-b11
+user.dir=C:\Program Files\Java\jdk1.7.0_21\db
+derby.system.home=C:\Users\Mattia\Desktop\cinemangiare_db\cinemangiare_db
 Programma di caricamento classe database avviato - derby.database.classpath=''
-Wed Feb 10 16:06:26 CET 2016 Thread[DRDAConnThread_4,5,main] Cleanup action starting
+Thu Feb 11 09:32:56 CET 2016 Thread[DRDAConnThread_5,5,main] Cleanup action starting
 java.sql.SQLException: Database 'web_project_database' non trovato.
-	at org.apache.derby.impl.jdbc.SQLExceptionFactory.getSQLException(Unknown Source)
-	at org.apache.derby.impl.jdbc.SQLExceptionFactory.getSQLException(Unknown Source)
-	at org.apache.derby.impl.jdbc.Util.generateCsSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.SQLExceptionFactory40.getSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.Util.newEmbedSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.Util.newEmbedSQLException(Unknown Source)
 	at org.apache.derby.impl.jdbc.Util.generateCsSQLException(Unknown Source)
 	at org.apache.derby.impl.jdbc.EmbedConnection.newSQLException(Unknown Source)
 	at org.apache.derby.impl.jdbc.EmbedConnection.handleDBNotFound(Unknown Source)
 	at org.apache.derby.impl.jdbc.EmbedConnection.<init>(Unknown Source)
-	at org.apache.derby.jdbc.InternalDriver.getNewEmbedConnection(Unknown Source)
-	at org.apache.derby.jdbc.InternalDriver.connect(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection30.<init>(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection40.<init>(Unknown Source)
+	at org.apache.derby.jdbc.Driver40.getNewEmbedConnection(Unknown Source)
 	at org.apache.derby.jdbc.InternalDriver.connect(Unknown Source)
 	at org.apache.derby.jdbc.EmbeddedDriver.connect(Unknown Source)
 	at org.apache.derby.impl.drda.Database.makeConnection(Unknown Source)
@@ -32,23 +30,24 @@ java.sql.SQLException: Database 'web_project_database' non trovato.
 	at org.apache.derby.impl.drda.DRDAConnThread.parseDRDAConnection(Unknown Source)
 	at org.apache.derby.impl.drda.DRDAConnThread.processCommands(Unknown Source)
 	at org.apache.derby.impl.drda.DRDAConnThread.run(Unknown Source)
-Caused by: ERROR XJ004: Database 'web_project_database' non trovato.
-	at org.apache.derby.iapi.error.StandardException.newException(Unknown Source)
-	at org.apache.derby.impl.jdbc.SQLExceptionFactory.wrapArgsForTransportAcrossDRDA(Unknown Source)
-	... 18 more
+Caused by: java.sql.SQLException: Database 'web_project_database' non trovato.
+	at org.apache.derby.impl.jdbc.SQLExceptionFactory.getSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.SQLExceptionFactory40.wrapArgsForTransportAcrossDRDA(Unknown Source)
+	... 19 more
 ============= begin nested exception, level (1) ===========
-ERROR XJ004: Database 'web_project_database' non trovato.
-	at org.apache.derby.iapi.error.StandardException.newException(Unknown Source)
-	at org.apache.derby.impl.jdbc.SQLExceptionFactory.wrapArgsForTransportAcrossDRDA(Unknown Source)
+java.sql.SQLException: Database 'web_project_database' non trovato.
 	at org.apache.derby.impl.jdbc.SQLExceptionFactory.getSQLException(Unknown Source)
-	at org.apache.derby.impl.jdbc.SQLExceptionFactory.getSQLException(Unknown Source)
-	at org.apache.derby.impl.jdbc.Util.generateCsSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.SQLExceptionFactory40.wrapArgsForTransportAcrossDRDA(Unknown Source)
+	at org.apache.derby.impl.jdbc.SQLExceptionFactory40.getSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.Util.newEmbedSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.Util.newEmbedSQLException(Unknown Source)
 	at org.apache.derby.impl.jdbc.Util.generateCsSQLException(Unknown Source)
 	at org.apache.derby.impl.jdbc.EmbedConnection.newSQLException(Unknown Source)
 	at org.apache.derby.impl.jdbc.EmbedConnection.handleDBNotFound(Unknown Source)
 	at org.apache.derby.impl.jdbc.EmbedConnection.<init>(Unknown Source)
-	at org.apache.derby.jdbc.InternalDriver.getNewEmbedConnection(Unknown Source)
-	at org.apache.derby.jdbc.InternalDriver.connect(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection30.<init>(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection40.<init>(Unknown Source)
+	at org.apache.derby.jdbc.Driver40.getNewEmbedConnection(Unknown Source)
 	at org.apache.derby.jdbc.InternalDriver.connect(Unknown Source)
 	at org.apache.derby.jdbc.EmbeddedDriver.connect(Unknown Source)
 	at org.apache.derby.impl.drda.Database.makeConnection(Unknown Source)
@@ -60,6 +59,9 @@ ERROR XJ004: Database 'web_project_database' non trovato.
 	at org.apache.derby.impl.drda.DRDAConnThread.run(Unknown Source)
 ============= end nested exception, level (1) ===========
 Cleanup action completed
-Wed Feb 10 16:06:26 CET 2016 Thread[DRDAConnThread_4,5,main] (DATABASE = web_project_database), (DRDAID = {3}), Database 'web_project_database' non trovato.
+Thu Feb 11 09:32:56 CET 2016 Thread[DRDAConnThread_5,5,main] (DATABASE = web_project_database), (DRDAID = {3}), Database 'web_project_database' non trovato.
 ----------------------------------------------------------------
-Wed Feb 10 16:09:20 CET 2016: arresto in corso del motore di Derby
+Thu Feb 11 09:55:26 CET 2016: arresto in corso del motore di Derby
+----------------------------------------------------------------
+Thu Feb 11 09:55:26 CET 2016:
+Arresto in corso dell'istanza a816c00e-0152-cf65-abe7-00007e44b71d nella directory del database C:\Users\Mattia\Desktop\cinemangiare_db\cinemangiare_db\cinemangiare_db con il caricatore di classi sun.misc.Launcher$AppClassLoader@709db0ad
